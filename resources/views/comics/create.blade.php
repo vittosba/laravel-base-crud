@@ -20,8 +20,8 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="image" class="form-label">Image</label>
-                        <input type="text" class="form-control" id="image" name="image">
+                        <label for="thumb" class="form-label">Image</label>
+                        <input type="text" class="form-control" id="thumb" name="thumb">
                     </div>
 
                     <div class="mb-3">
