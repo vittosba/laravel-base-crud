@@ -20,7 +20,8 @@
                         <td>{{ $comic->title }}</td>
                         <td>{{ $comic->sale_date }}</td>
                         <td>
-                            SHOW
+                            <a class="btn btn-success" href="{{ route('comics.show', $comic->slug) }}">SHOW</a>
+
                         </td>
                         <td>
                             EDIT
