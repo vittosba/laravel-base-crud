@@ -24,7 +24,7 @@
 
                         </td>
                         <td>
-                            EDIT
+                            <a class="btn btn-primary" href="{{ route('comics.edit', $comic->slug) }}">EDIT</a>
                         </td>
                         <td>
                             DELETE
